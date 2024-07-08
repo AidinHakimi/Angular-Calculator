@@ -1,0 +1,53 @@
+#body {
+    background-color: rgb(173, 139, 115);
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    margin: auto;
+}
+
+#body #button {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#body #button button {
+    width: 25%;
+    background-color: rgb(206, 171, 147);
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+#operator {
+    display: inline-block;
+    margin-left: 10px;
+    border: 1px solid black;
+    height: 40px;
+    width: 50px;
+    border-radius: 15px;
+    align-content: center;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#prevValue {
+    display: inline-block;
+    width: 230px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-indent: 10px;
+    align-content: center;
+}
+
+#mainValue {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 290px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-indent: 10px;
+}
